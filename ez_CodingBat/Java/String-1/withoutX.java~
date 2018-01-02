@@ -1,0 +1,16 @@
+/*Given a string, if the first or last chars are 'x', 
+  return the string without those 'x' chars, and otherwise return the string unchanged.
+
+withoutX("xHix") ¡ú "Hi"
+withoutX("xHi") ¡ú "Hi"
+withoutX("Hxix") ¡ú "Hxi"*/
+
+public String withoutX(String str) {
+  String result = "";
+  for(int n = 0; n < str.length(); n++){
+    if(!((n == 0 || n == str.length() - 1) && str.charAt(n) == 'x')){
+      result += str.charAt(n);
+    }
+  }
+  return result;
+}
