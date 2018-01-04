@@ -1,2 +1,3 @@
-# Practices
-out of school practices for problem-solving skills
+# Contents:
+
+CodingBat: ez algorithms for learning basic knowledge in Java and Python
